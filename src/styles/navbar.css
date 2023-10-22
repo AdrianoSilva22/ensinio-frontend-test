@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+
+    width: 1440px;
+    height: 88px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+}
+
+.div-menu-logo {
+    width: 158.71px;
+    height: 40px;
+}
+
+.navbar a,
+li {
+    height: 16px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 15.75px;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.line-3 {
+    border: 1px solid rgba(153, 243, 245, 1);
+    height: 24px;
+    opacity: 25%;
+}
+
+.user-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    margin-right: -29.5px;
+
+}
+
+#bow {
+    padding-bottom: -15px;
+    position: absolute;
+    bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.div-container {
+    max-width: 1440px;
+    width: 100%;
+    height: 88px;
+    padding-left: 112px;
+    padding-right: 112px;
+    box-sizing: border-box;
+
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.arrow {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin-left: 8px;
+}
+
+#comecar-agora {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 80px;
+    padding: 12px 24px;
+}
+
+#icon-playlist-left {
+    position: absolute;
+    left: 38.42px;
+    top: 55.34px;
+
+
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    mask-mode: alpha;
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    object-fit: cover;
+}
+
+.desfoque-icon-playlist-left {
+    position: absolute;
+    width: 45px;
+    height: 31.5px;
+    top: -13px;
+    left: 290px;
+
+
+
+    background-color: rgba(156, 224, 233, 0.9);
+    filter: blur(25px);
+    border-radius: 50%;
+}
+
+#desfoque-nav-top {
+    position: absolute;
+    left: 42px;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+
+    background-color: rgba(156, 224, 233, 0.9);
+    filter: blur(22px);
+    border-radius: 50%;
+}
+
+#icon-playlist-right {
+    position: absolute;
+    left: 1335.5px;
+    top: 55.34px;
+
+
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    mask-mode: alpha;
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    object-fit: cover;
+}
+
+.desfoque-icon-playlist-right {
+    position: absolute;
+    left: 1335.5px;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+
+    background-color: rgba(156, 224, 233, 0.9);
+    filter: blur(27px);
+    border-radius: 50%;
+}
+
+.desfoque-nome-entrar {
+    position: absolute;
+    left: 965px;
+    top: 20px;
+    width: 50px;
+    height: 40px;
+
+    background-color: rgba(156, 224, 233, 0.9);
+    filter: blur(30px);
+    border-radius: 50%;
+}
+
+#img-icon-certified {
+    position: absolute;
+    top: 64px;
+    left: 526px;
+
+    background-size: cover;
+    /* Ajuste a escala da imagem conforme necessário */
+    clip-path: polygon(0 30%, 100% 30%, 100% 100%, 0 100%);
+}
+
+ 
+@media (max-width: 1440px) {
+    .navbar {
+        width: 100%;
+    }
+}

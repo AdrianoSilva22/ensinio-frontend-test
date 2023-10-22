@@ -1,0 +1,33 @@
+.custom-select {
+    width: 138px;
+    height: 144px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    z-index: 1;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 15%);
+}
+
+#li-language {
+    position: relative;
+}
+
+.div-option-idiomas {
+    display: flex;
+    align-items: center;
+    width: 114px;
+    height: 47px;
+    padding-left: 24px;
+    transition: background 0.3s;
+}
+
+.div-option-idiomas:hover {
+    background: linear-gradient(90deg, #5F41D9 -880.48%, rgba(95, 65, 217, 0) 100%);
+}
+
+.checkMarkSquare {
+    margin-left: 32px;
+}

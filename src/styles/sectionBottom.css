@@ -1,0 +1,142 @@
+.bottom-section {
+    background-color: rgba(255, 255, 255, 1);
+
+    width: 1440px;
+    height: 661px;
+    box-sizing: border-box;
+}
+
+.div-detail-oriented-message {
+    margin: 107px 1288px 67px 112px;
+    width: 1340px;
+}
+
+.div-detail-oriented-message span {
+    color: rgba(67, 46, 152, 1);
+    font-family: "degular-variable", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16.8px;
+    margin-left: 16px;
+}
+
+.div-detail-oriented-message a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    position: absolute;
+    top: 797px;
+    left: 1021px;
+
+    color: rgba(66, 61, 81, 1);
+
+    white-space: nowrap;
+}
+
+#border-detail {
+    display: inline-block;
+    border: 1px solid rgba(95, 65, 217, 1);
+    margin-left: 0;
+    margin-bottom: 5.5px;
+    width: 40px;
+    opacity: 50%;
+}
+
+.div-detail-oriented-message h2 {
+    font-family: "degular-variable", sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+
+    color: rgba(19, 12, 37, 1);
+
+    margin-top: 16px;
+}
+
+.div-icons-text {
+    display: flex;
+    margin: 0 112px 0 112px;
+}
+
+.div-icons-text p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 304px;
+    height: 72px;
+}
+
+
+
+#icon-trail,
+#icon-playlist {
+    margin: 0;
+    margin-right: 152px;
+}
+
+.div-icons-text img {
+    margin-bottom: 24px;
+}
+
+.div-icons-text h2 {
+    color: rgba(19, 12, 37, 1);
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.005em;
+    text-align: left;
+
+}
+
+.section-bottom-terminal {
+    display: flex;
+    border-top: 1px solid rgba(231, 231, 233, 1);
+    margin: 67px 112px 0 112px;
+    padding-top: 36px;
+    width: 1216px;
+}
+
+.right-side-terminal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+    margin-left: 592px;
+}
+
+.left-side-terminal {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.left-side-terminal p {
+    width: 429px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(66, 61, 81, 1);
+}
+
+.right-side-terminal span {
+    width: 67px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(95, 65, 217, 1);
+}
+
+#img-icon-arrow {
+    position: absolute;
+    top: 1224px;
+    left: 1290px;
+}
