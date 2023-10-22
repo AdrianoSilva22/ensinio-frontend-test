@@ -16,14 +16,14 @@ export function SolutionsSubmenu() {
             <div className="duo-div-submenu">
 
                 <div className="section-submenu">
-                    <div id="icon-computer-screen"><Image alt="" src={ImgIconComputerScren} /></div>
+                    <div id="icon-computer-screen"><Image alt="image icon computer scren" src={ImgIconComputerScren} /></div>
                     <div id="text">
                         <h2>{t('Crie uma Escola Online')}</h2>
                         <span>Lorem ipsum dolor sit amet</span>
                     </div>
                 </div>
                 <div className="section-submenu">
-                    <div id="icon-social"><Image alt="" src={ImgIconSocial} /></div>
+                    <div id="icon-social"><Image alt="image icon social" src={ImgIconSocial} /></div>
                     <div id="text">
                         <h2>{t('Comunidade e rede social')}</h2>
                         <span>Lorem ipsum dolor sit amet</span>
@@ -32,14 +32,14 @@ export function SolutionsSubmenu() {
             </div>
             <div className="duo-div-submenu">
                 <div className="section-submenu">
-                    <div id="icon-gamification"><Image alt="" src={ImgIconGamification} /></div>
+                    <div id="icon-gamification"><Image alt="image icon gamification" src={ImgIconGamification} /></div>
                     <div id="text">
                         <h2>{t('Gamificação')}</h2>
                         <span>Lorem ipsum dolor sit amet</span>
                     </div>
                 </div>
                 <div className="section-submenu">
-                    <div id="icon-app"><Image alt="" src={ImgIconApp} /></div>
+                    <div id="icon-app"><Image alt="image icon app" src={ImgIconApp} /></div>
                     <div id="text">
                         <h2>{t('Aplicativo mobile')}</h2>
                         <span>Lorem ipsum dolor sit amet</span>

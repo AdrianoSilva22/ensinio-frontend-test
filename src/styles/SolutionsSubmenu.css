@@ -3,13 +3,10 @@
     height: 263px;
     border-radius: 6px;
     background-color: rgba(255, 255, 255, 1);
-
     position: absolute;
     z-index: 999;
-
-    /* padding: 44px 60px 44px 48px; */
     white-space: nowrap;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .submenu span {
@@ -19,16 +16,12 @@
     line-height: 19.5px;
     letter-spacing: 0em;
     text-align: left;
-
     width: 167px;
     height: 20px;
-
     color: rgba(66, 61, 81, 1);
 }
 
-
 .submenu h2 {
-    /* font-family: Degular; */
     font-size: 15px;
     font-weight: 600;
     height: 19px;
@@ -36,28 +29,22 @@
     line-height: 18.75px;
     letter-spacing: 0.005em;
     text-align: left;
-    
     color: rgba(19, 12, 37, 1);
 }
 
 #title {
-    /* font-family: Degular; */
     font-size: 14px;
     font-weight: 600;
     line-height: 14.7px;
     letter-spacing: 0.15em;
-
     margin-top: 40px;
     margin-left: 48px;
-
     color: rgba(95, 65, 217, 1);
 }
 
 .section-submenu {
     display: flex;
     align-items: center;
-
-
 }
 
 #text {
@@ -68,8 +55,23 @@
 .duo-div-submenu {
     display: flex;
     justify-content: space-between;
-    
     margin-right: 20px;
     margin-top: 40px;
     margin-left: 48px;
+}
+
+@media (max-width: 1200px) {
+    .submenu {
+        width: 630px;
+        height: 263px;
+        border-radius: 6px;
+        background-color: rgba(255, 255, 255, 1);
+        position: absolute;
+        z-index: 999;
+        white-space: nowrap;
+        box-sizing: border-box;
+
+        top: 5vh;
+        right: -8vw;
+    }
 }

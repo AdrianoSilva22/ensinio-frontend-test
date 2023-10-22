@@ -1,12 +1,12 @@
 .bottom-section {
     background-color: rgba(255, 255, 255, 1);
-
     width: 1440px;
     height: 661px;
     box-sizing: border-box;
 }
 
 .div-detail-oriented-message {
+    position: relative;
     margin: 107px 1288px 67px 112px;
     width: 1340px;
 }
@@ -25,13 +25,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
     position: absolute;
-    top: 797px;
-    left: 1021px;
-
+    top: -14px;
+    left: 770px;
     color: rgba(66, 61, 81, 1);
-
     white-space: nowrap;
 }
 
@@ -49,9 +46,7 @@
     font-size: 32px;
     line-height: 40px;
     font-weight: 400;
-
     color: rgba(19, 12, 37, 1);
-
     margin-top: 16px;
 }
 
@@ -69,8 +64,6 @@
     height: 72px;
 }
 
-
-
 #icon-trail,
 #icon-playlist {
     margin: 0;
@@ -83,30 +76,20 @@
 
 .div-icons-text h2 {
     color: rgba(19, 12, 37, 1);
-
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
     letter-spacing: 0.005em;
     text-align: left;
-
 }
 
 .section-bottom-terminal {
+    position: relative;
     display: flex;
     border-top: 1px solid rgba(231, 231, 233, 1);
     margin: 67px 112px 0 112px;
     padding-top: 36px;
     width: 1216px;
-}
-
-.right-side-terminal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
-
-    margin-left: 592px;
 }
 
 .left-side-terminal {
@@ -117,7 +100,6 @@
 
 .left-side-terminal p {
     width: 429px;
-
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -125,9 +107,12 @@
     color: rgba(66, 61, 81, 1);
 }
 
-.right-side-terminal span {
-    width: 67px;
+.right-side-terminal {
+    position: absolute;
+    left: 88.2%;
+}
 
+.right-side-terminal a {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -135,8 +120,118 @@
     color: rgba(95, 65, 217, 1);
 }
 
+#div-view-more {
+    display: flex;
+    white-space: nowrap;
+}
+
 #img-icon-arrow {
-    position: absolute;
-    top: 1224px;
-    left: 1290px;
+    margin-left: 32px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: rgba(0, 205, 211, 0.9);
+    transform: scale(1.05);
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+@media (max-width: 1439px) {
+    .bottom-section {
+        width: 98.5vw;
+        border: 1px solid white;
+        padding-right: 112px;
+    }
+
+    .div-detail-oriented-message {
+        margin: 107px 1288px 67px 112px;
+        max-width: 91.7%;
+    }
+
+    .div-icons-text {
+        display: flex;
+        margin: 0 112px 0 112px;
+        width: 91.7%;
+    }
+
+    #icon-trail p {
+        font-size: 1vw;
+        max-width: 20vw;
+        max-height: 100%;
+    }
+
+    .section-bottom-terminal {
+        max-width: 91.7%;
+    }
+}
+
+@media (max-width: 600px) {
+    .bottom-section {
+        width: 98.5vw;
+        border: 1px solid white;
+        padding-right: 28px;
+    }
+
+    .div-detail-oriented-message {
+        margin: 55px 1350px 34px 56px;
+        max-width: 91.7%;
+    }
+
+    .div-detail-oriented-message h2 {
+        font-size: 4vw;
+    }
+
+    .div-detail-oriented-message a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        position: absolute;
+        top: -30px;
+        left: 30px;
+        color: rgba(66, 61, 81, 1);
+        white-space: nowrap;
+    }
+
+    .div-icons-text {
+        display: flex;
+        flex-direction: column;
+        margin: 0 56px 0 56px;
+        width: 91.7%;
+    }
+
+    #icon-trail p {
+        font-size: 4vw;
+        max-width: 80vw;
+        max-height: 100%;
+    }
+
+    .section-bottom-terminal {
+        max-width: 91.7%;
+        margin-left: 0px;
+    }
+
+    .left-side-terminal p {
+        width: 429px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 24px;
+        color: rgba(66, 61, 81, 1);
+
+        margin-top: 20px;
+    }
+
+    #div-view-more {
+        display: flex;
+        white-space: nowrap;
+        margin-left: -50px;
+    }
 }

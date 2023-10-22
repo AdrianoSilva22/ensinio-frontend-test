@@ -55,7 +55,7 @@ export default function Home() {
         <div className='div-top-left'>
 
           <div className='div-devices-text'>
-            <Image alt='' src={imgDevices} className='imgDevices' />
+            <Image alt='Image Devices' src={imgDevices} className='imgDevices' />
             <span>{t('PLATAFORMA')} ALL IN ONE</span>
           </div>
 
@@ -65,13 +65,13 @@ export default function Home() {
 
           <div className='div-button-play'>
             <button type='button'>{t('Começar agora')}</button>
-            <Image alt='' src={imgPlay} />
+            <Image alt='image play' src={imgPlay} />
             <a href='' id='watch video'>{t('Ver vídeo')}</a>
           </div>
         </div>
         <div className='div-top-right'>
-          <Image alt='' src={imgIntersect} className='img-intersect' />
-          <Image alt='' src={imgMan} className='img-man' />
+          <Image alt='image intersect' src={imgIntersect} className='img-intersect' />
+          <Image alt='image man' src={imgMan} className='img-man' />
         </div>
       </section>
       <section className="bottom-section">
@@ -95,11 +95,16 @@ export default function Home() {
 
         <div className='section-bottom-terminal'>
           <div className='left-side-terminal'>
-            <Image alt='' src={imgIconRocket} id='img-icon-rocket' />
+            <Image alt='image icon rocket' src={imgIconRocket} id='img-icon-rocket' />
             <p>{t('Veja todos os outros recursos disponíveis para te ajudar')}</p>
           </div>
           <div className='right-side-terminal'>
-            <a href='/'>{t('Ver mais')} <Image alt='' src={imgIconRightwardArrow} id='img-icon-arrow' /> </a>
+            <a href='/'>
+              <div id='div-view-more'>
+                {t('Ver mais')}
+                <Image alt='' src={imgIconRightwardArrow} id='img-icon-arrow' />
+              </div>
+            </a>
           </div>
         </div>
       </section>

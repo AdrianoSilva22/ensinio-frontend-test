@@ -6,6 +6,6 @@ export interface LanguageContextProps {
     setSelectedLanguage: Dispatch<SetStateAction<OptionLanguage>>
 }
 
-const LanguageContext = createContext<LanguageContextProps | null>(null)
+const LanguageContext = createContext<LanguageContextProps | undefined>(undefined)
 
 export default LanguageContext

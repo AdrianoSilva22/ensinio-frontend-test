@@ -15,16 +15,14 @@ export function Item(props: ItemProps) {
     const context = useContext(LanguageContext)
 
     return (
-        <div
-            id='icon-trail'
-        >
+        <div id='icon-trail'>
             {
                 props.item.id === 1 ? (
-                    <Image alt='' src={imgIconTrail} className='img' />
+                    <Image alt='image icon trail' src={imgIconTrail} className='img' />
                 ) : props.item.id === 2 ? (
-                    <Image alt='' src={imgIconPlaylist} className='img' />
+                    <Image alt='image icon playlist' src={imgIconPlaylist} className='img' />
                 ) : props.item.id === 3 && (
-                    <Image alt='' src={imgIconFolder} className='img' />
+                    <Image alt='image icon folder' src={imgIconFolder} className='img' />
                 )
             }
             {

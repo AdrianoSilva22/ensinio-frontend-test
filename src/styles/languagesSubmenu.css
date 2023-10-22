@@ -13,6 +13,7 @@
 
 #li-language {
     position: relative;
+    white-space: nowrap;
 }
 
 .div-option-idiomas {

@@ -58,7 +58,7 @@ export function LanguagesSubmenu(props: LanguagesSubmenuProps) {
                         <Image onMouseMove={handleOnMouseMove} src={option.image} alt="" />
                         {
                             context.selectedLanguage?.value === option.value && (
-                                <Image alt='' src={checkMarkSquare} className='checkMarkSquare' />
+                                <Image alt='image check' src={checkMarkSquare} className='checkMarkSquare' />
                             )
                         }
 
