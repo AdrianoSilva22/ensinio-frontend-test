@@ -1,10 +1,10 @@
 'use client'
 
 import LanguageContext from '@/contexts/languageContext'
-import imgArrow from '@/images/Arrow.png'
 import imgUserBody from '@/images/User/UserBody.png'
 import imgUserBow from '@/images/User/userBow.png'
 import imgUserHead from '@/images/User/userHead.png'
+import imgArrow from '@/images/arrow.png'
 import imgIconPlaylistLeft from '@/images/icon-playlist-left.png'
 import imgIconPlaylistRight from '@/images/icon-playlist-right.png'
 import imgLogo from '@/images/logoEnsinio.png'
