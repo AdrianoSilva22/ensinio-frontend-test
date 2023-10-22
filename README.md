@@ -104,7 +104,7 @@ Iniciar o JSON Server: Execute o JSON Server apontando para o arquivo db.json:
 json-server --watch db.json --port 3001
 Realização de Requisições à API Falsa: A API falsa estará disponível em http://localhost:3001. Faça requisições HTTP para essa URL para obter dados como se fossem de uma API real.<p/>
 
-o projeto está hospedado na plataforma : ...
-o link:
+o projeto está hospedado na plataforma : Vercel
+o link: https://ensinio-frontend-test-9946d4lwx-adrianosilva22.vercel.app/
 
 
